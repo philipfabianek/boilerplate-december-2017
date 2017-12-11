@@ -1,0 +1,17 @@
+.landing-page {
+    height: 100vh;
+    position: relative;
+
+    &__image {
+        height: 100vh;
+        position: fixed;
+        width: 100vw;
+        left: 0;
+        top: 0;
+    }
+
+    &__title {
+        color: $black;
+        font-size: 4rem;
+    }
+}
